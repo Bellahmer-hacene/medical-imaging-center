@@ -1,0 +1,60 @@
+body{
+   
+    background-image: url(../Images/medicall-9.jpg) ; 
+}
+
+
+.connexion{
+
+	padding:6px 0 6px 0;
+	font:bold 13px Arial;
+	background:#478bf9;
+	color:#fff;
+	border-radius:2px;
+	width:226px;
+    height: 36px ; 
+	border:none;
+    margin-top: 26px ; 
+    font-size: 20px ; 
+}
+
+.connexion:hover{
+    background-color: #2E6FC9; 
+    color: white ; 
+}
+
+.seco {
+    font-size: 20px ; 
+    margin-top: 200px;
+    margin-left: 150px ; 
+}
+
+label{
+    font-weight: 500 ; 
+    display: block ;
+    width: 150px ; 
+    margin-bottom : 0px ; 
+    
+}
+.alertt {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;}

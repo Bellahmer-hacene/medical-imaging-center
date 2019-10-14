@@ -1,0 +1,234 @@
+body{
+    font-family: verda/*Helvetica*/ ; 
+        background-color: white;
+
+}
+#bloc_page {
+    margin: auto ; 
+    background-color: white ; 
+}
+
+
+
+header {
+    display: flex ; 
+    background-color:#F1F1F1 ;
+    
+}
+
+#logo{
+    display: flex ; 
+}
+
+
+#logo img {
+    border : solid #F1F1F1 5px ; 
+}
+#titre_principal {
+    color: #003C85 ;
+    margin-left: 250px ;
+    margin-top: 70px ;
+}
+
+
+
+section {
+    display: flex ; 
+    flex-wrap: wrap ; 
+    flex-direction: row ; 
+}
+nav {
+    background-color:  #003C85 ;
+    height: 50px ;    
+}
+
+nav p {
+    color: white;
+    font-size: 35px ;
+    text-align: center ; 
+}
+
+article p {
+    margin: 18px;
+    text-align: justify; 
+    font-size: 25px ; 
+}
+
+.button {
+    
+	background: #003C85 ;
+	border:none;
+	color:#fff;
+	font:bold 12px Verdana;
+	padding:6px 0 6px 0;
+    margin-top: 10px ; 
+    width: 120px ;
+    height: 30px ; 
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+    .button:hover {
+        background-color: #F16627; 
+        color: white;
+}
+
+#bouton {
+    margin-left: 300px ; 
+}
+    
+
+
+#form {
+    margin-left: 150px;
+    margin-top: 30px ;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    padding-left: 55px ;
+    padding-right: 55px ;
+    border:  1px solid #F1F1F1; 
+    background-color:#F1F1F1 ;
+    font-weight: 500 ; 
+}
+
+table{
+    font-size: 18px ;
+}
+table td {
+    padding-right: 40px ;
+    padding-bottom: 10px ; 
+}
+
+#info {
+    margin-left: 100px ; 
+    margin-top: 150px ; 
+    font-size: 30px ;
+    color: /*#003C85*/ #6C6C6C  ; 
+}
+     /* The alert message box */
+.alertt {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 0px;
+}
+.con {
+    padding: 20px;
+    background-color: #2196F3 ; /* Red */
+    color: white;
+    margin-bottom: 0px;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;}
+#bloc {
+    height: 20px ; 
+    width: auto ; 
+    
+}
+
+
+input.parsley-success,
+select.parsley-success,
+textarea.parsley-success {
+  color: /*#468847*/ black;
+  background-color: /*#DFF0D8*/ white;
+  border: 1px solid /*#D6E9C6*/ #003C85 ;
+}
+
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {
+  color: /*#B94A48*/ black ;
+  background-color: /*#F2DEDE*/ white;
+  border: 1px solid /*#EED3D7*/ #F16627;
+    padding: 0 ; 
+}
+
+.parsley-errors-list {
+  margin: 2px 0 3px;
+  padding: 0;
+  list-style-type: none;
+  font-size: 0.9em;
+  line-height: 0.9em;
+  opacity: 0;    
+  color:#F16627;
+  transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+}
+
+.parsley-errors-list.filled {
+  opacity: 1;
+}
+
+.nature{
+    margin-bottom: 0px ;
+}
+
+footer {
+    background-color: #F1F1F1;
+    border-top : solid 3px #F1F1F1;
+   /* color: #6C6C6C  ;*/
+    display: flex ; 
+    margin-top: 80px ;
+    align-items: center ;
+    flex-direction: row; 
+    justify-content: space-around; 
+}
+
+footer p {
+    padding-top: 10px ;
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
